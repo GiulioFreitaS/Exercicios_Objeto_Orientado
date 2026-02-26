@@ -3,11 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.hipotenusa;
-import java.util.Scanner;
-/**
- *
- * @author Admin
- */
-public class HipotenusaExemplo {
+
+public class HipotenusaExe {
+    public static void main(String[] args) {
+        
+        Hipotenusa CalcHipotenusa = new Hipotenusa();
+        
+        CalcHipotenusa.BemVindo();
+        CalcHipotenusa.introA();
+        CalcHipotenusa.introB();
+        CalcHipotenusa.Calculo();
     
+    CalcHipotenusa = null;
+    
+   }
 }
+
