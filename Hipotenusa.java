@@ -9,27 +9,33 @@ import java.util.Scanner;
  * @author Admin
  */
 public class Hipotenusa {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.println("Calculo da hipotenusa:");
-        
-        double Base , Altura;
-        double Hipotenusa;
-        
+       Scanner sc = new Scanner(System.in);
+    
+       
+       double Base , Altura;
+       double Hipotenusa;
+    
+    void BemVindo(){
+    System.out.println("Bem vindo a Calculadora de hipotenusa.");
+    }
+    
+    
+    void  introA (){
         System.out.println("Insira o valor da Base: ");
        Base = sc.nextDouble();
-       
-       System.out.println("Insira o valor da Altura: ");
-       Altura = sc.nextDouble();
-       
-       Hipotenusa = Base*Base + Altura*Altura;
-       
-       System.out.println("Esse é o valor da hipotenusa:" + Hipotenusa);
-       
-       
-        
-        
     }
+    
+    void introB (){
+    
+    System.out.println("Insira o valor da Altura: ");
+            Altura = sc.nextDouble();
+    }
+    
+    void Calculo(){
+     Hipotenusa = Base*Base + Altura+Altura;
+    System.out.println("O resultado da hipotenusa é :" + Hipotenusa );
+    }
+    
+    
+    
 }
